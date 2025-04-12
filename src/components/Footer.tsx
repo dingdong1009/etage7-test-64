@@ -5,7 +5,7 @@ import { Instagram, MessageCircle, Send, FileText, ShieldCheck, HelpCircle } fro
 const Footer = () => {
   return (
     <footer className="bg-white border-gray-200 pt-12 pb-8">
-      <div className="max-w-[1481px] border-t mx-auto px-4">
+      <div className="max-w-[1481px] border-t border-b mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="uppercase font-bold text-lg mb-4">ETAGE7</h3>
@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-gray-200 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-xs text-gray-500 mb-4 md:mb-0">
             &copy; {new Date().getFullYear()} ETAGE7. All rights reserved.
           </p>
