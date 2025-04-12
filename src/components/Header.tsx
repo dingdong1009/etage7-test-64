@@ -26,7 +26,7 @@ const Header = () => {
       }`}
     >
       <div className="max-w-[1481px] border-b mx-auto px-4 flex justify-between items-center h-16">
-      <Link to="/" className="text-black text-xl font-bold uppercase">ETAGE7</Link> 
+      <Link to="/" className="text-black text-2xl font-bold uppercase">ETAGE7</Link> 
         
         {/* Mobile menu button */}
         <button 
